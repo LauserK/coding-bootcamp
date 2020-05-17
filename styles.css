@@ -1,0 +1,80 @@
+.Testimonials {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  color: hsl(240, 38%, 20%);
+  background-image: url("./images/pattern-curve.svg");
+  background-repeat: no-repeat;
+  background-position: left bottom;
+}
+
+.Testimonials-card {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.Testimonials-avatar {
+  background: url("./images/pattern-bg.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 2rem 1rem;
+}
+
+.Testimonials-bubble {
+  margin-top: 1rem;
+  padding: 2rem 0;
+  background-image: url("./images/pattern-quotes.svg");
+  background-position: top 5px left 140px;
+  background-size: 4rem;
+  background-repeat: no-repeat;
+}
+
+.Testimonials-content {
+  text-align: center;
+  font-weight: 300;
+  width: 320px;
+}
+
+.Testimonials-profile {
+  text-align: center;
+}
+
+.Testimonials-photo {
+  max-width: 250px;
+  max-height: 250px;
+  margin: 0 auto;
+}
+
+.Testimonials-photo img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.5);
+}
+
+.Testimonials-controls {
+  display: none;
+}
+
+.Testimonials-controlsLeft,
+.Testimonials-controlsRight {
+  background-color: white;
+  padding: 0.5rem;
+}
+
+.Testimonials-controlsLeft {
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  border-radius: 50%;
+}
+
+.Testimonials-userName {
+  margin-bottom: 0.3rem;
+}
+
+.Testimonials-bio {
+  margin-bottom: 0;
+  color: hsl(240, 18%, 77%);
+  font-size: 0.9em;
+}
