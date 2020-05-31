@@ -80,3 +80,47 @@
   color: hsl(240, 18%, 77%);
   font-size: 0.9em;
 }
+
+@media (min-width: 768px) {
+  .Testimonials {
+    font-size: 2rem;
+    padding: 0;
+  }
+
+  .Testimonials-avatar {
+    padding: 5rem 4rem;
+  }
+
+  .Testimonials-card {
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Testimonials-photo {
+    max-height: 430px;
+    max-width: 430px;
+  }
+
+  .Testimonials-bubble {
+    background-position: top 5px left 12%;
+  }
+
+  .Testimonials-content {
+    text-align: left;
+    width: 650px;
+  }
+
+  .Testimonials-profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
+
+  .Testimonials-userName {
+    margin: 0;
+    margin-right: 1rem;
+  }
+}
